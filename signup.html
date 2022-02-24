@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+    <script type="text/javascript" src="bootstrap/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" style="border-radius:0px;">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+              </button>
+                <a href="index.html" class="navbar-brand">Lifestyle store</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+                    <li> <a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <form action="POST" id="content_center" data-netlify="true" name="signup">
+                    <h2><b>SIGN UP</b></h2>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" name="contact" placeholder="Contact">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="city" placeholder="City">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="address" placeholder="Address">
+                    </div>
+                    <button class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer_fixed">
+        <center>
+            <div class="container">
+                <p>Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000</p>
+            </div>
+        </center>
+    </footer>
+</body>
+
+</html>
